@@ -1,0 +1,22 @@
+function onEdit(e)
+{ 
+  
+  var timezone = "GMT+7";
+  var timestamp_format = "dd/MM/yyyy"; // Timestamp Format. 
+  var updateColName = "Temp";
+  var timeStampColName = "Date";
+ 
+  var sheet = e.source.getSheetByName('Sheet1'); //Name of the sheet where you want to run this script.
+  var actRng = e.source.getActiveRange();
+  var editColumn = actRng.getColumn();
+  var index = actRng.getRowIndex();
+  var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues();
+  var dateCol = headers[0].indexOf(timeStampColName);
+  var updateCol = headers[0].indexOf(updateColName); updateCol = updateCol+1;
+
+if (actRng.getValue() != "") {
+    var cell = sheet.getRange(index, dateCol + 1);
+    var date = Utilities.formatDate(new Date(), timezone, timestamp_format);
+    cell.setValue(date);
+  }
+}
