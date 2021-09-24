@@ -63,7 +63,7 @@ lable_Upres.place(x=200,y=240)
 # api config
 def getTemp():
 
-    api_key = "8280aeb47d8dd85caf5984c97d2f6947"
+    api_key = "GEE_WEATHER_API"
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
     city_name = entry_1.get()
     complete_url = base_url+"appid="+api_key+"&q="+city_name 
