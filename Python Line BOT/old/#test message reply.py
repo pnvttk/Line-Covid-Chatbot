@@ -2,7 +2,7 @@
 from flask import Flask, request, abort
 import requests
 import json
-Channel_access_token = 'x5wQFRGb2nx1vqs8DfRuaauNMxcWnKI9Z+tGZed3bBMGSAvqDDjWRI+QsnWrGhMGv1o25HYISK83AIDkDVfjxXQC6KITKjMVQJrULoVHMmwwSx1rXKqrW36aPfwqgc0ykTLm5xy2HrmbDSoK4nfrKQdB04t89/1O/w1cDnyilFU='
+Channel_access_token = 'Channel_access_token_test_msg_py'
 app = Flask(__name__)
 
 
