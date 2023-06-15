@@ -6,9 +6,6 @@ for more info you can read below or at this link : https://paoschools.com/python
 
 <hr>
 <h1>Line Covid Chatbot ด้วย Dialogflow และ Python</h1>
-<!-- wp:paragraph -->
-<p>ผู้เขียนบทความ : นายปัณณวัชญ์ ตราทองคำ coe#12</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
 <h3 class="wp-block-heading">1. ความเป็นมา</h3>
