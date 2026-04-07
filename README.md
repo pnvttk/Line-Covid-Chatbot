@@ -1,6 +1,5 @@
 # Line-chatbot
 line chatbot with Dialog Flow, Ngrok, Flask
-for more info you can read below or at this link : https://paoschools.com/python-line-chatbot/
 
 <hr>
 <h1>Line Covid Chatbot ด้วย Dialogflow และ Python</h1>
